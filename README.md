@@ -6,20 +6,19 @@ You have been presented with a description and purpose of the
 Interface Segregation Principle (ISP). You will need to understand this
 principle to successfully complete the lab work.
 
-Try not to peek at the instructor solutions in "isp.lab1.instructor" and
-"isp.lab2.instructor". If you get stuck or want to check if your solution is
-a good one, review the instructor's solution.
+Try not to peek at the instructor solutions in "edu.wctc.isp.solution". If you get stuck or want to check if your solution is
+a good one, review the instructor's solutions.
 
 ISP RULES:
 Clients should not be forced to depend on methods that they do not use.
 
 THE CHALLENGE:
 ===================================
-This lab includes an Interface that breaks the Interface Segregation Principle (ISP).
+This lab includes an interface that breaks the Interface Segregation Principle (ISP).
 
-For the first part, refactor the program in "isp.lab1" to use two interfaces
+For the first part, refactor the program in "edu.wctc.isp" to use two interfaces
 instead of one. Create two interfaces that properly segregate the methods of
-books versus music products. Put your solution in the package "isp.lab1.student".
+books versus music products.
 
 For the second part, refactor your two-interface solution to allow for
 polymorphism. Remember that interfaces can extend other interfaces! Extract

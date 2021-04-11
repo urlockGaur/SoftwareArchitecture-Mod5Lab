@@ -1,4 +1,4 @@
-package isp.lab1.instructor;
+package edu.wctc.isp.solution.part1;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
