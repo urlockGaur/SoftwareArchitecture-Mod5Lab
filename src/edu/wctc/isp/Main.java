@@ -22,10 +22,14 @@ public class Main {
                 LocalDate.of(2011, Month.APRIL, 12),
                 "Miles Davis", Duration.ofMinutes(46));
 
-        System.out.println(book1.toString());
-        System.out.println("\n");
-        System.out.println(book2.toString());
-        System.out.println("\n");
-        System.out.println(record.toString());
+
+        printProduct(book1);
+        printProduct(book2);
+        printProduct(record);
+    }
+    public static void printProduct(Product p)
+    {
+        //print title and cost
+        System.out.println(p.getTitle() + " " + p.getCost());
     }
 }
